@@ -21,13 +21,13 @@ Normlize_VS = [1, 1, 1]
 parser = argparse.ArgumentParser()
 parser = argparse.ArgumentParser("--help",description='tool for MRI artifics using python Python '
                                                     'Procssing dataset Brats2020 ')
+parser.add_argument('--config', default='data_Brast.yaml',type=str)
 parser.add_argument('--path',required=True,
                         help='A directory to create output Processed fdata.')                                               
 parser.add_argument('--n4baisfieldcorrection',action='store_true',
 help="A directory to save corrected samples n4baisfieldcorrection ")
 parser.add_argument('--skull_stripping',action='store_true',
 help="A directory to save corrected samples Skull stripping.")
-parser.add_argument('--config', default='data_Brast.yaml',type=str)
 
 
 
