@@ -8,15 +8,15 @@ the automated tool to Post-Processing the data Brain Tumor include n4 bias Corre
 	* tool description ;
 
         we develpoed a simple tool that helps to Post Processing the dstaset 
-        * N4 bais Correction field this will increase the Low intensity of the image to run :
+        * N4 bais Correction field this will increase the Low intensity of the image to run :</br>
 
         ```python
-        python Postprocessing.py --config 'data_Brast.yaml' --path path_name  --n4baiscorrection 
+        python Postprocessing.py --config 'data_Brast.yaml' --path Processed --n4baiscorrection 
         ```
 
-        * Skull Stripping this technic helps to reduce tissues such skull and midbrain .. only we do care about in our project is brain tissues to tun it :
+        * Skull Stripping this technic helps to reduce tissues such skull and midbrain .. only we do care about in our project is brain tissues to tun it :</br>
 
         ```python
-        python Postprocessing.py --config 'data_Brast.yaml' --path path_name --skull_stripping 
+        python Postprocessing.py --config 'data_Brast.yaml' --path Processed --skull_stripping 
         ```
 
