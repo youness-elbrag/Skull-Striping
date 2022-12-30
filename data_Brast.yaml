@@ -1,0 +1,4 @@
+Data:
+    input : BraTS2020_TrainingData
+    output: BraTS2020_TrainingDataCorrected/
+
