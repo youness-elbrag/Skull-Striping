@@ -27,21 +27,25 @@ the automated tool to Post-Processing the data Brain Tumor include n4 bias Corre
         ```
 
     * Virtualization  dataset Brast2020;
-        -  vitualize few samples from the data you need to run this command 
+        * vitualize few samples from the data you need to run this command
 
-        the Options to plot the corrected with oring img 
-        type_plot{option 1 = Anat ,option 2 = epi ,option= img }
+            - the Options to plot the corrected with oring img 
+            type_plot: 
+            
+            1. option 1 -> Anat 
+            2. option 2 ->  epi 
+            3. option 3 -> img 
 
             ```python      
             python virtaulizer.py --corrected_samples --type_plot option  
             ```
-        - for rendering the images in 3D or 2d slices you will need to run 
+        * for rendering the images in 3D or 2d slices you will need to run 
 
             ```python
                 python virtaulizer.py --v2Drender && echo 
                 this will render images in 2D "
             ```
-        - this commaned may takes will depends on the GPU perfomence you have 
+        * this commaned may takes will depends on the GPU perfomence you have 
 
             ```python
             python virtualizer.py --v3Drender
