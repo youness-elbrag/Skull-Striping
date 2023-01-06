@@ -1,0 +1,14 @@
+imageio
+scikit-imagels 
+albumentations
+antspyx
+SimpleITK
+nipype
+nibabel
+nibabel
+brainextractor
+glob2
+pynrrd
+pydicom
+IPython
+h5py
