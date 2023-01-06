@@ -30,18 +30,19 @@ the automated tool to Post-Processing the data Brain Tumor include n4 bias Corre
      
     to vitualize few samples from the data you need to run this command 
 
-        the Options to plot the corrected with oring img 
-        type_plot{option 1 = Anat ,option 2 = epi ,option= img }
+    the Options to plot the corrected with oring img 
+    type_plot{option 1 = Anat ,option 2 = epi ,option= img }
 
         ```python      
         python virtaulizer.py --corrected_samples --type_plot option  
         ```
     for rendering the images in 3D or 2d slices you will need to run 
-        
+
             ```python
                 python virtaulizer.py --v2Drender && echo 
                 this will render images in 2D "
             ```
+            
             ```python
             python virtualizer.py --v3Drender && echo 
              "this commaned may takes will depends on the GPU perfomence you have " 
