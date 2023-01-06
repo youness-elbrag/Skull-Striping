@@ -36,16 +36,15 @@ the automated tool to Post-Processing the data Brain Tumor include n4 bias Corre
         ```python      
         python virtaulizer.py --corrected_samples --type_plot option  
         ```
-    for rendering the images in 3D or 2d slices you will need to run 
+    - for rendering the images in 3D or 2d slices you will need to run 
+        ```python
+            python virtaulizer.py --v2Drender && echo 
+            this will render images in 2D "
+        ```
+    - this commaned may takes will depends on the GPU perfomence you have 
 
-            ```python
-                python virtaulizer.py --v2Drender && echo 
-                this will render images in 2D "
-            ```
-            
-            ```python
-            python virtualizer.py --v3Drender && echo 
-             "this commaned may takes will depends on the GPU perfomence you have " 
-             ```   
-        
+        ```python
+        python virtualizer.py --v3Drender
+        ```   
+    
 
